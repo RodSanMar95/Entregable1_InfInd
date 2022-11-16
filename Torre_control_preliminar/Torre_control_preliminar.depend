@@ -1,0 +1,97 @@
+# depslib dependency file v1.0
+1668520428 source:d:\informatica industrial\l08_s6\torre_control_preliminar\main.cpp
+	<iostream>
+	<algorithm>
+	<vector>
+	<chrono>
+	<unistd.h>
+	"msg.h"
+	"colalim.h"
+	"torrecontrol.h"
+	"drone.h"
+	"globales.h"
+	"bateria.h"
+	"sensoraltura.h"
+	"sensorvelocidad.h"
+	"sensorhorizontal.h"
+
+1668610716 d:\informatica industrial\l08_s6\torre_control_preliminar\include\msg.h
+	<iostream>
+	"colalim.h"
+
+1668361904 source:d:\informatica industrial\l08_s6\torre_control_preliminar\src\msg.cpp
+	"msg.h"
+
+1668610806 d:\informatica industrial\l08_s6\torre_control_preliminar\include\colalim.h
+	<deque>
+	"globales.h"
+	"msg.h"
+
+1667763730 d:\informatica industrial\l08_s6\torre_control_preliminar\include\torrecontrol.h
+	"colalim.h"
+	"msg.h"
+
+1668619190 d:\informatica industrial\l08_s6\torre_control_preliminar\include\drone.h
+	<deque>
+	<vector>
+	<math.h>
+	"globales.h"
+	"sensor.h"
+	"colalim.h"
+	"msg.h"
+	"bateria.h"
+	"sensoraltura.h"
+	"sensorvelocidad.h"
+	"sensorhorizontal.h"
+
+1668620102 source:d:\informatica industrial\l08_s6\torre_control_preliminar\src\drone.cpp
+	<deque>
+	<vector>
+	"sensor.h"
+	"drone.h"
+	"colalim.h"
+	"msg.h"
+	"bateria.h"
+	"sensorvelocidad.h"
+	"sensoraltura.h"
+	"sensorhorizontal.h"
+	"drone.h"
+
+1668362938 source:d:\informatica industrial\l08_s6\torre_control_preliminar\src\torrecontrol.cpp
+	"torrecontrol.h"
+	"globales.h"
+	<limits>
+
+1667753062 d:\informatica industrial\l08_s6\torre_control_preliminar\include\globales.h
+
+1668361890 d:\informatica industrial\l08_s6\torre_control_preliminar\include\bateria.h
+	<iostream>
+	"msg.h"
+
+1668610766 source:d:\informatica industrial\l08_s6\torre_control_preliminar\src\bateria.cpp
+	"bateria.h"
+	"msg.h"
+
+1668443142 d:\informatica industrial\l08_s6\torre_control_preliminar\include\sensoraltura.h
+	"sensor.h"
+	"sensorvelocidad.h"
+
+1667925660 d:\informatica industrial\l08_s6\torre_control_preliminar\include\sensor.h
+
+1668620228 d:\informatica industrial\l08_s6\torre_control_preliminar\include\sensorvelocidad.h
+	"sensor.h"
+	"sensorvelocidad.h"
+
+1668443142 source:d:\informatica industrial\l08_s6\torre_control_preliminar\src\sensoraltura.cpp
+	"sensoraltura.h"
+
+1668443024 source:d:\informatica industrial\l08_s6\torre_control_preliminar\src\sensorvelocidad.cpp
+	"sensorvelocidad.h"
+
+1668451322 source:d:\informatica industrial\l08_s6\torre_control_preliminar\src\sensorhorizontal.cpp
+	"sensorhorizontal.h"
+
+1668620604 d:\informatica industrial\l08_s6\torre_control_preliminar\include\sensorhorizontal.h
+	"sensor.h"
+	"sensorvelocidad.h"
+
